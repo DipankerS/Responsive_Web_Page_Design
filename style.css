@@ -1,0 +1,97 @@
+.body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(204, 204, 204);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    background-color: rgb(110, 108, 108);
+}
+
+li {
+    float: right;
+}
+
+.icon {
+    height: 49px;
+    width: 40px;
+    left: 285px;
+    top: 26px;
+    border-radius: 0px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(94, 90, 90);
+}
+
+
+/* Top Player */
+
+.player {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 40px;
+    grid-column-gap: 250px;
+}
+
+.fs {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#box {
+    height: 56px;
+    width: 56px;
+    left: 315px;
+    top: 239px;
+    border-radius: 0px;
+}
+
+.felx {
+    display: flex;
+}
+
+.felx p {
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+
+/* Top Blog */
+
+.blog {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 40px;
+    grid-column-gap: 100px;
+}
+
+.felxx {
+    display: flex;
+}
+
+.felxx p {
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+#boxx {
+    height: 117px;
+    width: 177px;
+    left: 315px;
+    top: 507px;
+    border-radius: 10px;
+}
