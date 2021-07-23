@@ -1,7 +1,7 @@
 .body {
     margin: 0;
     padding: 0;
-    background-color: rgb(204, 204, 204);
+    background-color: #E5E5E5;
 }
 
 ul {
@@ -9,7 +9,7 @@ ul {
     margin: 0;
     padding: 10px;
     overflow: hidden;
-    background-color: rgb(110, 108, 108);
+    background-color: #562EFF;
 }
 
 li {
@@ -50,6 +50,7 @@ li a:hover {
     background-color: rgb(255, 255, 255);
     padding: 20px;
     border-radius: 10px;
+    margin-top: 05px;
 }
 
 #box {
@@ -93,5 +94,30 @@ li a:hover {
     width: 177px;
     left: 315px;
     top: 507px;
+    border-radius: 10px;
+}
+
+
+/* Latest Courses */
+
+.course {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 40px;
+    grid-column-gap: 100px;
+}
+
+.ls {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#boxxx {
+    height: 104px;
+    width: 224px;
+    left: 324px;
+    top: 913px;
     border-radius: 10px;
 }
