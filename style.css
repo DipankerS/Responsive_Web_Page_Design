@@ -5,7 +5,6 @@
 }
 
 .container {
-    height: 10px;
     width: 70%;
     margin-left: 15%;
 }
@@ -23,6 +22,14 @@ ul {
 
 li {
     float: right;
+}
+
+li:nth-child(1) {
+    margin-right: 200px;
+}
+
+li:nth-child(5) {
+    margin-left: 190px;
 }
 
 .icon {
@@ -56,13 +63,19 @@ hr.line {
 /* Main*/
 
 
-/* Start Top Player */
+/* Start Top Developer */
 
 .player {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 40px;
     grid-column-gap: 150px;
+    justify-content: center;
+    justify-items: stretch;
+    align-content: center;
+    align-items: stretch;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .fs {
@@ -99,16 +112,22 @@ i {
 }
 
 
-/* End Top Player */
+/* End Top Developer */
 
 
-/* Start Top Blog */
+/* Start Top Learning Site */
 
 .blog {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-row-gap: 40px;
     grid-column-gap: 20px;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: stretch;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .felxx {
@@ -133,16 +152,22 @@ i {
 }
 
 
-/* End Top Blog */
+/* End Top Learning Site */
 
 
-/* Start Latest Courses */
+/* Start Best Portfolio Tuitorial */
 
 .course {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 40px;
     grid-column-gap: 100px;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: stretch;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .ls {
@@ -150,6 +175,7 @@ i {
     padding: 20px;
     border-radius: 10px;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 #boxxx {
@@ -193,7 +219,106 @@ a:link {
 }
 
 
-/* End Latest Courses */
+/* End Best Portfolio Tuitorial */
 
 
 /* End Main */
+
+
+/* Media Queries for Mobile Phones */
+
+@media only screen and (max-width: 688px) {
+    .container-upper li {
+        float: none;
+        width: 100%;
+    }
+    .player {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 40px;
+        grid-column-gap: 150px;
+        justify-items: stretch;
+        align-items: stretch;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .blog {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 40px;
+        grid-column-gap: 20px;
+        justify-content: center;
+        justify-items: stretch;
+        align-content: center;
+        align-items: stretch;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #boxx {
+        height: 117px;
+        width: 100%;
+        left: 315px;
+        top: 507px;
+        border-radius: 10px;
+    }
+    .felxx {
+        display: inline-block;
+    }
+    .course {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 40px;
+        grid-column-gap: 100px;
+        justify-content: center;
+        justify-items: stretch;
+        align-content: center;
+        align-items: stretch;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+/* Media Queries for Tab */
+
+@media only screen and (max-width: 992px) and (min-width: 689px) {
+    .container-upper li,
+    a {
+        float: none;
+        width: 100%;
+    }
+    .player {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 40px;
+        grid-column-gap: 150px;
+        justify-items: stretch;
+        align-items: stretch;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .blog {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 40px;
+        grid-column-gap: 20px;
+        justify-content: center;
+        justify-items: stretch;
+        align-content: center;
+        align-items: stretch;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .course {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 40px;
+        grid-column-gap: 100px;
+        justify-content: center;
+        justify-items: stretch;
+        align-content: center;
+        align-items: stretch;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
