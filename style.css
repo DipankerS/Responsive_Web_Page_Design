@@ -1,7 +1,8 @@
 .body {
     margin: 0;
     padding: 0;
-    background-color: #E5E5E5;
+    background-color: #313552;
+    background-image: url(image/bg1.gif);
 }
 
 .container {
@@ -9,15 +10,32 @@
     margin-left: 15%;
 }
 
+h2 {
+    font-family: 'Otomanopee One', sans-serif;
+    color: darkslateblue;
+}
+
+h5 {
+    font-family: 'Otomanopee One', sans-serif;
+}
+
+p {
+    font-family: 'Bree Serif', serif;
+}
+
 
 /* Start Header */
+
+.container-upper a {
+    font-family: 'Otomanopee One', sans-serif;
+}
 
 ul {
     list-style-type: none;
     margin: 0;
     padding: 10px;
     overflow: hidden;
-    background-color: #562EFF;
+    background-color: #11173f;
 }
 
 li {
@@ -49,7 +67,7 @@ li a {
 }
 
 li a:hover {
-    background-color: rgb(94, 90, 90);
+    background-color: rgb(158, 156, 156);
 }
 
 hr.line {
@@ -79,7 +97,7 @@ hr.line {
 }
 
 .fs {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(228, 228, 228);
     padding: 20px;
     border-radius: 10px;
     margin-top: 05px;
@@ -136,7 +154,7 @@ i {
 
 .felxx p {
     margin-left: 10px;
-    margin-top: 15px;
+    margin-top: 0;
 }
 
 .felxx a {
@@ -171,7 +189,7 @@ i {
 }
 
 .ls {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(228, 228, 228);
     padding: 20px;
     border-radius: 10px;
     margin-top: 20px;
